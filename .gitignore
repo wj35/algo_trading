@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ipynb_checkpoints/
+*.ipynb
+
+# C++
+*.o
+*.obj
+*.exe
+*.out
+*.app
+*.lib
+*.a
+*.dll
+*.so
+*.dylib
+build/
+*.cmake
+CMakeCache.txt
+CMakeFiles/
+*.vcxproj
+*.sln
+*.suo
+
+# Data files you don't want to commit
+*.csv
+*.parquet
+*.h5
+*.hdf5
+
+# API keys and config - important for trading
+.env
+config.ini
+secrets.json
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
